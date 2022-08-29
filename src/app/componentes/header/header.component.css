@@ -1,0 +1,39 @@
+body{
+    margin-top: -20px;
+}
+
+header{
+    background-color: rgb(46, 39, 90);
+}
+
+header img{
+    text-align: left;
+}
+
+h1{
+    text-align: center;
+}
+
+#redes{
+    margin-top: -90px;
+}
+
+#redes i{
+    color: rgb(243, 239, 255);
+    font-size: 50px;
+    margin: 0px 40px 0px 40px;
+    text-decoration: none;
+}
+
+#redes i:hover{
+    display: inline-block;
+    animation: flip;
+    animation-duration: 0.8s
+}
+
+#login{
+    text-align: right;
+    margin-right: 50px;
+    margin-top: -50px;
+    padding-bottom: 50px;
+}

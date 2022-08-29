@@ -1,0 +1,28 @@
+div, h1{
+    margin-left: 25%;
+    font-family: 'Dosis', sans-serif;
+}
+
+div p{
+    font-size: 20px;
+    margin-top: -5px;
+    padding-bottom: 5px;
+    font-family: 'Asap Condensed', sans-serif;
+}
+
+h1{
+    font-size: 60px;
+    border-bottom: 2px solid rgb(51, 0, 133);
+    border-top: 2px solid rgb(51, 0, 133);
+    margin-top: -10px;
+    padding-bottom: 5px;
+}
+
+body{
+    margin-top: 25px;
+}
+
+a{
+    color: rgb(152, 109, 221);
+    font-family: 'Asap Condensed', sans-serif;
+}

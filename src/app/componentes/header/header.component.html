@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel=stylesheet href="./header.component.css">
+</head>
+
+<body>
+    <header>
+        <img src="./assets/header.jpg">
+        <h1>
+            <div id="redes" class="animate__animated">
+                <a href="https://www.facebook.com/Brunocortimusica">
+                    <i class="bi bi-facebook"></i>
+                </a>
+
+                <a href="https://twitter.com/BCorti_">
+                    <i class="bi bi-twitter"></i>
+                </a>
+
+                <a href="https://www.instagram.com/brunocorti_/">
+                    <i class="bi bi-instagram"></i>
+                </a>
+            </div>
+        </h1>
+        <div id="login">
+            <button type="button" class="btn btn-success" routerLink="/iniciar-sesion" *ngIf="!isLogged">Login</button>
+        </div>
+        <div id="logout">
+            <button type="button" class="btn btn-danger" style="margin: -100px 0px 0px 1190px" routerLink="" (click)="onLogOut()" *ngIf="isLogged">Cerrar sesión</button>
+        </div>
+    </header>
+</body>
+
+</html>
