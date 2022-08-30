@@ -26,3 +26,11 @@ a{
     color: rgb(152, 109, 221);
     font-family: 'Asap Condensed', sans-serif;
 }
+
+@media only screen and (max-width: 970px) {
+
+    h1, .row{
+        margin-left: 0px;
+    }
+
+}
