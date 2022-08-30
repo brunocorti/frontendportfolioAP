@@ -37,3 +37,84 @@ h1{
     margin-top: -50px;
     padding-bottom: 50px;
 }
+
+@media only screen and (max-width: 1070px) {
+
+    img{
+        width: 27%
+    }
+
+    h1{
+        margin-top: 14px;
+    }
+
+    #login, #logout{
+        margin-top: -50px;
+        margin-bottom: 14px;
+    }
+}
+
+@media only screen and (max-width: 970px) {
+
+    h1{
+        margin-top: 15px;
+    }
+
+    #login, #logout{
+        margin-top: -45px;
+        margin-bottom: 10px;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+
+    h1{
+        margin-top: 45px;
+    }
+
+    #login, #logout{
+        margin-top: -55px;
+        margin-bottom: 14px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+    img{
+        margin-top: 15px;
+    }
+
+    h1{
+        margin-top: 30px;
+    }
+
+    #login, #logout{
+        margin-top: -55px;
+        margin-bottom: 10px;
+    }
+
+    #redes i{
+        margin: 0px 15px 0px 15px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+    img{
+        margin-top: 30px;
+        height: 60px;
+        width: 120px;
+    }
+
+    h1{
+        margin-top: 35px;
+    }
+
+    #login, #logout{
+        margin: -45px 15px -19px 0px;
+    }
+
+    #redes i{
+        font-size: 35px;
+    }
+}
