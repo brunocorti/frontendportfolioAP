@@ -46,3 +46,166 @@ div h3{
     margin-top: -15px;
     padding-bottom: 5px;
 }
+
+@media only screen and (max-width: 1270px) {
+
+    div h1{
+        margin-top: 30px;
+    }
+}
+
+@media only screen and (max-width: 1170px) {
+
+    div h1{
+        margin-top: 40px;
+    }
+
+    #epigrafe{
+        margin-left: 60px;
+    }
+}
+
+@media only screen and (max-width: 1070px) {
+    
+    div h1{
+        margin-top: 60px;
+    }
+
+    #epigrafe{
+        margin-left: 50px;
+    }
+}
+
+@media only screen and (max-width: 974px) {
+
+    div h1{
+        margin-top: 160px;
+        margin-left: -230px;
+    }
+
+    #perfil{
+        margin-left: 400px;
+    }
+
+    #epigrafe{
+        margin-left: 400px;
+    }
+
+    h3, p{
+        margin-left: -230px;
+    }
+}
+
+@media only screen and (max-width: 947px) {
+
+    div h1{
+        margin-top: 160px;
+        margin-left: -210px;
+    }
+
+    h3, p{
+        margin-left: -210px;
+    }
+
+    #epigrafe{
+        margin-left: 400px;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    
+    div h1{
+        margin-top: 160px;
+        margin-left: -180px;
+    }
+
+    h3, p{
+        margin-left: -180px;
+    }
+
+    #epigrafe{
+        margin-left: 385px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+    div h1{
+        margin-top: 140px;
+        margin-left: -160px;
+    }
+
+    h3, p{
+        margin-left: -160px;
+    }
+
+    #perfil{
+        margin-top: -60px;
+    }
+
+}
+
+@media only screen and (max-width: 660px) {
+
+    div h1{
+        margin-top: 120px;
+        margin-left: -140px;
+    }
+
+    h3, p{
+        margin-left: -140px;
+    }
+
+    #epigrafe{
+        margin-left: 375px;
+    }
+
+    #perfil{
+        margin-top: -60px;
+        margin-left: 410px;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+
+    div h1{
+        margin-top: 88px;
+        margin-left: -120px;
+    }
+
+    h3, p{
+        margin-left: -120px;
+    }
+
+    #epigrafe{
+        font-size: 12px;
+        margin-left: 400px;
+    }
+
+    #perfil{
+        margin-top: -60px;
+        margin-left: 430px;
+    }
+
+}
+
+@media only screen and (max-width: 560px) {
+
+    div h1{
+        margin-top: 88px;
+        margin-left: -100px;
+    }
+
+    h3, p{
+        margin-left: -100px;
+    }
+
+    #epigrafe{
+        margin-left: 365px;
+    }
+
+    #perfil{
+        margin-left: 370px;
+    }
+}
